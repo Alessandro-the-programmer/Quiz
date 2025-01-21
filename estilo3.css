@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(73, 224, 13);
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove preenchimentos padrão */
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+      font-size: 12px;
+  }
+}
+
+div#titulo {
+  background: black;
+  width: 100%; /* Ocupa toda a largura da tela */
+  height: 100px;
+  position: relative;
+  margin: 0; /* Remove qualquer margem extra */
+  top: 0; /* Remove o deslocamento para cima */
+  right: 0; /* Remove o deslocamento para a direita */
+  display: flex; /* Centraliza o conteúdo horizontal e verticalmente */
+  justify-content: center;
+  align-items: center;
+}
+
+div#titulo h1 {
+  color: rgb(11, 118, 240);
+  margin: 0; /* Remove margens extras */
+  font-size: 24px;
+}
+button {
+  background: rgba(0, 0, 0, 0.849);
+  color: white;
+  border: none;
+  width: 80px;
+  height: 26px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.555);
+  margin: 20px auto; /* Centraliza o botão horizontalmente */
+  display: block; /* Garante centralização horizontal */
+  transition: 0.2s;
+  position: relative;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.897);
+  transition: 0.2s;
+}
+
